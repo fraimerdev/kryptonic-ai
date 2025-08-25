@@ -1,0 +1,9 @@
+flask
+python-dotenv
+langchain 
+langchain-community 
+langchain-openai
+langchain-mongodb
+pymongo
+scrapingant-client
+chardet
