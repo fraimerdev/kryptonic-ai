@@ -225,7 +225,7 @@
 
         /* Sidebar */
         .sidebar {
-            width: 320px;
+            width: 280px;
             background: var(--bg-card);
             backdrop-filter: blur(20px);
             border-right: 1px solid var(--border-secondary);
@@ -368,7 +368,7 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            max-width: calc(100vw - 320px);
+            max-width: calc(100vw - 280px);
         }
 
         .chat-header {
@@ -797,11 +797,15 @@
         /* Responsive Design */
         @media (max-width: 1024px) {
             .sidebar {
-                width: 280px;
+                width: 250px;
             }
             
             .nav-container {
                 padding: 0 var(--spacing-md);
+            }
+
+            .chat-main {
+                max-width: calc(100vw - 250px);
             }
         }
 
@@ -948,15 +952,7 @@
                     </div>
                     <div class="message-content">
                         <div class="message-text">
-                            Welcome to Kryptonic AI! I'm your advanced cryptocurrency assistant. I can help you with:
-                            <br><br>
-                            • Real-time crypto prices and market data
-                            <br>• Trending cryptocurrencies
-                            <br>• Market analysis and insights
-                            <br>• Blockchain technology questions
-                            <br>• Trading strategies and DeFi guidance
-                            <br><br>
-                            Try asking me: "What's the price of Bitcoin?" or "Show me trending coins"
+                            Hey there! I'm Kryptonic AI, your crypto companion. Whether you need real-time prices, market insights, or want to learn about blockchain tech, I'm here to help. Try asking me about Bitcoin prices or trending cryptocurrencies to get started!
                         </div>
                         <div class="message-time">Just now</div>
                     </div>
@@ -1603,5 +1599,6 @@
             console.log('Kryptonic AI initialized successfully!');
         });
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </body>
 </html>
