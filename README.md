@@ -46,9 +46,14 @@ First, clone the repository and install the required Python packages. It is high
 git clone https://github.com/fraimerdev/kryptonic-ai.git  
 cd kryptonic-ai
 
-# Create and activate a virtual environment (optional but recommended)  
+# Create virtual environment
 python -m venv venv  
+
+# Activate virtual environment on MacOS/Linux
 source venv/bin/activate
+
+#Activate virtual environment on Windows
+venv\Scripts\activate
 
 # Install dependencies  
 pip install -r requirements.txt
