@@ -272,4 +272,4 @@ if __name__ == "__main__":
     print(f"ElevenLabs API Key: {'Present' if os.getenv('ELEVENLABS_API_KEY') else 'Missing'}")
     print(f"Voice Service: {'Initialized' if voice_service else 'Failed'}")
     
-    app.run(debug=True, host="0.0.0.0", port=5000)
+    app.run(debug=True, host="0.0.0.0", port=3030)

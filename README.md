@@ -89,7 +89,7 @@ python app.py
 
 #### 4. **Open the Application:**
 
-Visit http://127.0.0.1:5000 in your browser.
+Visit http://127.0.0.1:3030 in your browser.
 
 ## Project Structure
 
